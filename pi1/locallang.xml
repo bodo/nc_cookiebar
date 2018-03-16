@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_nccookiebar_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="list_mode_1">Mode 1</label>
+			<label index="list_mode_2">Mode 2</label>
+			<label index="list_mode_3">Mode 3</label>
+			<label index="back">Back</label>
+			<label index="submit_button_label">Click here to submit value</label>
+			<label index="cookie_url">http://maastricht.development-a.netcreators.com/cookie3/</label>
+			<label index="cookie_error_message">We\'re sorry, this feature places cookies in your browser and has been disabled. &lt;br&gt;To continue using this functionality, please</label>
+			<label index="cookie_accept">Ja, ik accepteer cookies</label>
+			<label index="cookie_decline">Nee, ik accepteer geen cookies</label>
+			<label index="cookie_reset">RESET COOKIES</label>
+			<label index="cookie_what">Wat zijn cookies?</label>
+			<label index="cookie_policy_page">Please read the information below and then choose from the following options</label>
+			<label index="cookie_discreet">Cookies?</label>
+			<label index="cookie_message_before">We use cookies on this website, you can</label>
+			<label index="cookie_message_after">To use the website as intended please...</label>
+			<label index="cookie_message_link_text">read about them here</label>
+			<label index="cookie_analytics_message">Deze website maakt gebruik van cookies voor statistiek-doeleinden. Gaat u hier mee akkoord?</label>
+			<label index="ga">12454-xx</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,46 @@
+
+2017-11-20 v1.3.5 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Fix: Only re-write localized jquery.cookiecuttr.js script if it has changed from the current on-disc version.
+			This avoids a cluttered and overflowing typo3temp/compressor/.
+	* Remove irritating default {$google-analytics} string from inline JS.
+
+2017-08-16 v1.3.4 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Continued: Made cookiecuttr script jQuery 3-ready.
+
+2017-08-08 v1.3.3 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Made cookiecuttr script jQuery 3-ready.
+
+2017-08-03 v1.3.2 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Merely some formatting changes.
+
+2017-07-31 v1.3.1 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Changed from traditional to contemporary array syntax.
+
+2016-02-22 v1.3.0 Tania Morales <extensions@netcreators.nl>
+	* Changed constraints for compatibility with 7.6
+
+2015-12-05 v1.2.1 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Writing localized jquery.cookiecuttr.js into typo3temp/ rather than uploads/tx_nccookiebar/, for easier deployment.
+
+2015-12-05 v1.2.0 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Externalized all JS code, so it can be loaded in the footer.
+
+2015-12-05 v1.1.2 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Replaced non-namespaced \t3lib_extMgm.
+
+2015-02-28 v1.1.1 Leonie Philine Bitto <leonie@netcreators.nl>
+	* Removed XCLASS code.
+
+2014-08-27  Gautam Kok <gautam@netcreators.nl>
+
+    * Update for TYPO3 6.2
+    * Version to 1.1.0
+
+2013-04-19  Jordi Bakker <jordi@netcreators.nl>
+
+	* change stylesheet request webguide proof
+	* change version
+
+2013-03-29  Tomita Militaru  <tmilitaru@arxia.com>
+
+	* Initial code generated with kickstarter

@@ -1,0 +1,24 @@
+
+plugin.tx_nccookiebar_pi1 {
+
+	_LOCAL_LANG.nl {
+		ga = {$google-analytics}
+		cookie_url = /cookies/
+		cookie_accept = Ja, ik accepteer cookies
+		cookie_decline = Nee, ik accepteer geen cookies
+		cookie_message_before = Voor een optimale werking van deze website wordt gebruik gemaakt van
+		cookie_message_after = Gaat u hier mee akkoord?
+		cookie_message_link_text = cookies,
+		cookiePolicyLink = cookies
+	}
+
+	// Defaulting to Dutch.
+	_LOCAL_LANG.default < _LOCAL_LANG.nl
+}
+
+page.includeCSS.ncCookiebar = EXT:nc_cookiebar/Resources/Styles/cookiecuttr.css
+
+page.includeJSFooterlibs.ncCookiebarJQueryCookie = EXT:nc_cookiebar/Resources/JavaScript/jquery.cookie.js
+page.includeJSFooterlibs.ncCookiebarCookieCuttr = typo3temp/jquery.cookiecuttr.js
+
+page.includeJSFooter.ncCookiebarInitializer =  EXT:nc_cookiebar/Resources/JavaScript/cookiebar-initalizer.js
